@@ -1,4 +1,7 @@
 body {
+    padding: 0;
+    margin: 0;
+    border: solid black;
     display: grid;
     justify-content: center;
     align-content: center;
@@ -10,9 +13,34 @@ body {
     text-align: center; 
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution-a { 
+    color: hsl(157, 67%, 65%); 
 }
 
-.main-block{
+.box1{
+    border: solid black;
+    padding: 0;
+    margin: 0;
+    align-content:flex-start;
+    border: black;
+    background-color: chartreuse;
+
 }
+
+.box2{
+    border: 0 solid black;
+    padding: 0;
+    margin: 0;
+    align-content:flex-start;
+    background-color: chartreuse;
+
+}
+
+.box3{
+    border: 0 solid black;
+    padding: 0;
+    margin: 0;
+    align-content:flex-end;
+    background-color: chartreuse;
+}
+
