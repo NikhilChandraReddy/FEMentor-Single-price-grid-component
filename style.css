@@ -1,6 +1,9 @@
-* {
-    box-sizing: border-box;
+body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
+
 
 .attribution { 
     font-size: 11px; 
@@ -12,9 +15,4 @@
 }
 
 .main-block{
-    border: 2px solid black;
-    color:black;
-    padding: 5px;
-    height: 450px;
-    width: 400px;
 }
