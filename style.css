@@ -17,30 +17,19 @@ body {
     color: hsl(157, 67%, 65%); 
 }
 
-.box1{
+.flex-container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
     border: solid black;
     padding: 0;
     margin: 0;
     align-content:flex-start;
     border: black;
-    background-color: chartreuse;
 
-}
+  }
 
-.box2{
-    border: 0 solid black;
-    padding: 0;
-    margin: 0;
-    align-content:flex-start;
-    background-color: chartreuse;
+.flex-item{
+    order: 1;
 
-}
-
-.box3{
-    border: 0 solid black;
-    padding: 0;
-    margin: 0;
-    align-content:flex-end;
-    background-color: chartreuse;
 }
 
